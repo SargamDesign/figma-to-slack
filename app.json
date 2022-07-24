@@ -1,23 +1,23 @@
 {
-  "name": "Aether UI Kit, Slack Updates",
-  "description": "Post updates to Slack from a Aether UI Kit file's version history",
-  "repository": "https://github.com/Aether-Toolkit/aether-ui-kit-slack-updates.git",
-  "logo": "https://res.cloudinary.com/postman/image/upload/v1625856191/aether/aether-logo.png",
+  "name": "Figma File Version History To Slack",
+  "description": "Automatically post Figma file's version history updates to a Slack channel each day or weekly.",
+  "repository": "https://github.com/planetabhi/figma-to-slack",
+  "logo": "",
   "env": {
     "FIGMA_PERSONAL_ACCESS_TOKEN": {
-      "description": "325517-e2e5e258-28b7-4a62-88f0-45b7e9f19140"
+      "description": "ADD_FIGMA_PERSONAL_ACCESS_TOKEN_HERE"
     },
     "FIGMA_FILE_KEY": {
-      "description": "4GTZ50X7KwIUS8Y1R064ae"
+      "description": "ADD_FIGMA_FILE_KEY_HERE"
     },
     "SLACK_TEAM_ID": {
-    	"description": "T02G7V5JE"
+    	"description": "ADD_SLACK_TEAM_ID_HERE"
     },
     "SLACK_USER_ID": {
-    	"description": "B0334JGM43V"
+    	"description": "ADD_SLACK_USER_ID_HERE"
     },
     "SLACK_CHANNEL_ID": {
-    	"description": "qi1YCPUWzeMKtUcduOU2pKzU"
+    	"description": "ADD_SLACK_CHANNEL_ID_HERE"
     }
   },
   "addons": [
