@@ -1,0 +1,26 @@
+{
+  "name": "Aether UI Kit, Slack Updates",
+  "description": "Post updates to Slack from a Aether UI Kit file's version history",
+  "repository": "https://github.com/Aether-Toolkit/aether-ui-kit-slack-updates.git",
+  "logo": "https://res.cloudinary.com/postman/image/upload/v1625856191/aether/aether-logo.png",
+  "env": {
+    "FIGMA_PERSONAL_ACCESS_TOKEN": {
+      "description": "325517-e2e5e258-28b7-4a62-88f0-45b7e9f19140"
+    },
+    "FIGMA_FILE_KEY": {
+      "description": "4GTZ50X7KwIUS8Y1R064ae"
+    },
+    "SLACK_TEAM_ID": {
+    	"description": "T02G7V5JE"
+    },
+    "SLACK_USER_ID": {
+    	"description": "B0334JGM43V"
+    },
+    "SLACK_CHANNEL_ID": {
+    	"description": "qi1YCPUWzeMKtUcduOU2pKzU"
+    }
+  },
+  "addons": [
+    "scheduler"
+  ]
+}
